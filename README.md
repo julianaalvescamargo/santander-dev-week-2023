@@ -24,17 +24,19 @@ classDiagram
   }
 
   class Account {
-    -Number teeth
+    -Age[] 
+    -Phone[] 
+    
   }
 
   class Feature {
     -Desease
+    -theeth number
   }
 
 
   class News {
-    -String icon
-    -String description
+    -String treatment description
   }
 
   User "1" *-- "1" Account
